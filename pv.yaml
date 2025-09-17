@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: efs-pv
-  namespace: example-namespace
+  namespace: ns
 spec:
   capacity:
     storage: 5Gi
